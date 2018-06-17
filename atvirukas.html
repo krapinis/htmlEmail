@@ -1,28 +1,165 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Demystifying Email Design</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<head>
+    <title>Test Email Sample</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <style>
+#overlay {
+    position: fixed;
+    /*display: true;*/
+    top: 10%;
+    width: 100%;
+    line-height: 200px;
+    height: 200px;
+    /*left: 50%;*/
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+    /*outline: 9999px solid rgba(0,0,0,0.3);*/
+    text-align: center;
+    z-index: 2;
+    /*cursor: pointer;*/
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-shadow: 5px 2px black;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+        .em_defaultlink a {
+            color: inherit !important;
+            text-decoration: none !important;
+}
+            @media only screen and (min-width: 481px) and (max-width:699px) {
+                .em_main_table {
+                    width: 100% !important;
+                }
+                .em_wrapper {
+                    width: 100% !important;
+                }
+                .em_hide {
+                    display: none !important;
+                }
+                .em_img {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+                .em_h20 {
+                    height: 20px !important;
+                }
+                .em_padd {
+                    padding: 20px 10px !important;
+                }
+            }
+            @media screen and (max-width: 480px) {
+                .em_main_table {
+                    width: 100% !important;
+                }
+                .em_wrapper {
+                    width: 100% !important;
+                }
+                .em_hide {
+                    display: none !important;
+                }
+                .em_img {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+                .em_h20 {
+                    height: 20px !important;
+                }
+                .em_padd {
+                    padding: 20px 10px !important;
+                }
+                .em_text1 {
+                    font-size: 16px !important;
+                    line-height: 24px !important;
+                }
+                u+.em_body .em_full_wrap {
+                    width: 100% !important;
+                    width: 100vw !important;
+                }
+            }
+    </style>
 </head>
-<body style="margin: 0; padding: 0;">
-    <table align="center" border="1" cellpadding="0" cellspacing="0" width="600">
+
+<body class="em_body" style="margin:0px; padding:0px;" bgcolor="#f6c319">
+    <table align="center" width="700" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:700px;">
         <tr>
-            <td align="center" bgcolor="#70bbd9" style="padding: 40px 0 30px 0;">
-                <img src="images/yourInvited.jpg" alt="Creating Email Magic" width="300" height="230" style="display: block;" />
-               </td>
+            <td style="padding:15px;" class="em_padd" valign="top" bgcolor="#f6f7f8" align="center">
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tbody>
+                        <tr>
+                            <td style="font-family:'Open Sans', Arial, sans-serif; font-size:12px; line-height:15px; color:#0d1121;" valign="top" align="center">Test Email Sample |
+                                <a href="#" target="_blank" style="color:#0d1121; text-decoration:underline;">View Online</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
         </tr>
         <tr>
-         <td>
-          Row 2
-         </td>
+            <td valign="top" align="center">
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tbody>
+                        <tr>
+                            <td valign="top" align="center">
+                                <img class="em_img" alt="Welcome to EmailMonks Newsletter" style="display:block; font-family:Arial, sans-serif; font-size:30px; line-height:34px; color:#000000; max-width:700px;"
+                                    src="./images/baloons.jpg" width="700" border="0" height="345">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
         </tr>
         <tr>
-         <td>
-          Row 3
-         </td>
+            <td valign="top" align="center" bgcolor="#0d1121" style="padding:35px 70px 30px;" class="em_padd">
+                <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="center" valign="top" style="font-family:'Open Sans', Arial, sans-serif; font-size:16px; line-height:30px; color:#ffffff;">
+                            This is a sample email which shall be accommodated in a single paragraph
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="15" style="font-size:0px; line-height:0px; height:15px;">&nbsp;
+                        </td>
+                        <!--this is space of 15px to separate two paragraphs -->
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" style="font-family:'Open Sans', Arial, sans-serif; font-size:18px; line-height:22px; color:#fbeb59; letter-spacing:2px; padding-bottom:12px;">This is paragraph 2 of font size 18px and #fbeb59 font color with a line spacing of 15px</td>
+                    </tr>
+                    <tr>
+                        <td height="25" class="em_h20" style="font-size:0px; line-height:0px; height:25px;">&nbsp;
+                        </td>
+                        <!--this is space of 25px to separate two paragraphs -->
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" style="font-family:'Open Sans', Arial, sans-serif; font-size:18px; line-height:22px; color:#fbeb59; text-transform:uppercase; letter-spacing:2px; padding-bottom:12px;">
+                        This is paragraph 3 of font size 18px and #fbeb59 font color with a line spacing of 25px and Uppercase</td>
+                        <div id="overlay">
+                            <p>
+                                Kviečiu į gimimo dieną
+                            </p>
+                        </div>
+                    </tr>
+                </table>
+            </td>
         </tr>
-       </table>
-   </body>
-   
-</html>
+    </table>
+</body>
