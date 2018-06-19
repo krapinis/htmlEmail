@@ -122,4 +122,12 @@
             </td>
         </tr>
     </table>
+    <button id="button1" type="button">The time is?</button>
+<script>
+    document.getElementById("button1").addEventListener("mouseover", testingFunctions);
+    function testingFunctions(){
+        document.getElementById("button1").innerHTML = Date();
+    }  
+</script>
+
 </body>
